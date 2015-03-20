@@ -1,0 +1,52 @@
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Trebuchet MS', Verdana, Geneva, Helvetica, sans-serif;
+  font-size: 1em; line-height: 1.4em; letter-spacing: .01em; word-spacing: 0.1em;
+}
+
+header { margin: 0; padding-left: .1em;
+  width: 100%; height: 8.5em;
+  background-color: #FFF; color: #CB2F00; 
+}
+header h1 { background-color: transparent; color: #CB2F00; 
+  padding-top: .3em; padding-bottom: .3em; 
+  margin-top: 60px; margin-left: 0; 
+  left: 140px; 
+  letter-spacing: 1.4px; 
+  font-size: 3em; 
+  font-family: 'Open Sans', sans-serif;
+}
+div#logo { float: left; margin: 0 1em 0 0; padding: 0; border: none; }
+div#logo img { border: none; margin: 0; }
+
+header > * {
+  margin-top: 0; 
+  margin-left: 10px;
+}
+
+main > * {
+  margin-left: 10px;
+}
+
+a:link { background-color: transparent; color: #006AB0; }
+a:visited { background-color: transparent; color: #000080; }
+a:hover, a:focus { background-color: #055597; color: #FFF; text-decoration: none;}
+
+.toplinks {
+  background-color: #99027A; color: #FFF;
+}
+
+a.skiplink, a.langlink, a.skiplink:visited, a.langlink:visited { background-color: transparent; color: #FFF; font-weight: bold; z-index: 1; }
+a.skiplink:hover, a.skiplink:focus, a.langlink:hover, a.langlink:focus { color: #FFF; font-weight: bold; }
+
+a.imgurl:hover, a.imgurl:focus { text-decoration: none; background: transparent; } 
+
+
+/* temp colours to test layout */
+/*
+body div#navigation {border: 1px dotted red; } 
+header { background-color: lime; }
+main { background-color: #FFFF00; }
+footer { background: magenta; } */
