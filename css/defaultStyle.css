@@ -84,6 +84,15 @@ footer > div > p > span:last-of-type a, #legal a {
   color: #FFF;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 0.2em;
+}
+
 /* temp colours to test layout */
 /*
 body div#navigation {border: 1px dotted red; } 
