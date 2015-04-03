@@ -27,12 +27,14 @@ nav {
 nav ul {
   list-style-type: none;
   margin-left: 0;
-  padding: 2px 0;
+  padding: 6px 0;
 }
 
 nav li {
   display: inline; 
   margin-left: 0;
+  background-color: inherit; 
+  color: #FFF;
 }
 
 nav li:before {
@@ -44,10 +46,15 @@ nav li:first-child:before {
   content: "";
 }
 
-/*main {
-  display: block;
-  margin-bottom: 20px;
-}*/
+nav a:link { 
+  text-decoration: none;
+  background-color: transparent; color: #FFF; 
+} /*#CB2F00*/
+nav li.active a { border-bottom: 2px solid #FFF; }
+nav a:visited {
+  background-color: transparent; color: #FFF; 
+} /*#000080*/
+nav a:hover, a:focus { background-color: #99027A; color: #FFF; text-decoration: none;}
 
 .contrib {
   display: block;
