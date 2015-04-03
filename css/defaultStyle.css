@@ -19,6 +19,31 @@ header > *, main > * {
   margin-left: 20px;
 }
 
+nav {
+  padding: 0 20px;
+  background-color: #99027A; color: #FFF;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 2px 0;
+}
+
+nav li {
+  display: inline; 
+  margin-left: 0;
+}
+
+nav li:before {
+  content: "/ ";
+  background-color: #99027A; color: #FFF;
+}
+
+nav li:first-child:before {
+  content: "";
+}
+
 h1, h2, h3, h4, h5, h6 { background-color: transparent; color: #CB2F00; 
   font-family: 'Open Sans', sans-serif;
 }
