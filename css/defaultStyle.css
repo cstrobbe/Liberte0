@@ -44,6 +44,22 @@ nav li:first-child:before {
   content: "";
 }
 
+/*main {
+  display: block;
+  margin-bottom: 20px;
+}*/
+
+.contrib {
+  display: block;
+  clear: both;
+}
+.contrib article {
+  width: 28%;
+  float: left;
+  margin-right: 30px;
+  /*border: 1px dotted blue;*/
+}
+
 h1, h2, h3, h4, h5, h6 { background-color: transparent; color: #CB2F00; 
   font-family: 'Open Sans', sans-serif;
 }
@@ -74,7 +90,9 @@ a.imgurl:hover, a.imgurl:focus { text-decoration: none; background: transparent;
 
 
 footer {
-  margin-top: 40px;
+  display: block;
+  margin-top: 100px;
+  clear: both;
 }
 
 footer > * {
@@ -120,7 +138,9 @@ th, td {
 
 /* temp colours to test layout */
 /*
-body div#navigation {border: 1px dotted red; } 
+nav {border: 1px dotted red; } 
 header { background-color: lime; }
 main { background-color: #FFFF00; }
-footer { background: magenta; } */
+footer { border: 2px solid yellowgreen; } 
+.contrib { border: 1px dotted #999; }
+*/
