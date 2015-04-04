@@ -19,6 +19,10 @@ header > *, main > * {
   margin-left: 20px;
 }
 
+main {
+  margin-right: 20px;
+}
+
 nav {
   padding: 0 20px;
   background-color: #99027A; color: #FFF;
@@ -30,6 +34,16 @@ nav ul {
   padding: 6px 0;
 }
 
+nav ul:after {
+  content: url('../img/illus_ghost.png');
+  float: right;
+  margin-top: -65px;
+  margin-right: -20px;
+  border-right: solid white 20px;
+  border-left: solid white 20px;
+  color: inherit; background-color: #FFF;
+}
+
 nav li {
   display: inline; 
   margin-left: 0;
@@ -38,8 +52,10 @@ nav li {
 }
 
 nav li:before {
-  content: "/ ";
+  content: " / ";
   background-color: #99027A; color: #FFF;
+  font-size: 1.4em;
+  font-weight: normal;
 }
 
 nav li:first-child:before {
@@ -49,34 +65,85 @@ nav li:first-child:before {
 nav a:link { 
   text-decoration: none;
   background-color: transparent; color: #FFF; 
-} /*#CB2F00*/
+  font-size: 1.2em;
+}
 nav li.active a { border-bottom: 2px solid #FFF; }
 nav a:visited {
   background-color: transparent; color: #FFF; 
-} /*#000080*/
-nav a:hover, a:focus { background-color: #99027A; color: #FFF; text-decoration: none;}
+}
+nav a:hover, a:focus { 
+  background-color: #99027A; color: #FEC341; 
+  text-decoration: none;
+  border-bottom: 2px solid #FEC341;
+}
+
+.news {
+  color: inherit; background-color: #FFB523;
+  padding: 10px 20px 10px 10px;
+}
+
+
+.news > * {
+  margin-left: 156px;
+}
+
+.news h2 {
+  margin-top: 4px;
+}
+
+.about {
+  margin-bottom: 30px;
+}
+
+.news img:first-of-type, .about img:first-of-type {
+  float: left; 
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.about img:first-of-type {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
 
 .contrib {
   display: block;
   clear: both;
+  border-top: 1px dotted #666;
 }
+
 .contrib article {
-  width: 28%;
+  width: 29%;
   float: left;
   margin-right: 30px;
-  /*border: 1px dotted blue;*/
 }
 
-h1, h2, h3, h4, h5, h6 { background-color: transparent; color: #CB2F00; 
+h1, h2, h3, h4, h5, h6 { 
   font-family: 'Open Sans', sans-serif;
 }
+h1, h4, h5, h6 { background-color: transparent; color: #CB2F00; 
+}
 
-h1 { padding-bottom: 0;
+h1 { 
+  margin-bottom: 0;
+  padding-bottom: 0;
   letter-spacing: 1.4px; 
   font-size: 3em; 
 }
 
+h1 a, h1 a:hover, h1 a:focus {
+  padding: 0;
+  color: transparent;
+  background-color: inherit;
+}
+
 h2 { margin-top: 24px;
+  color: #99027A;  /*#970279*/
+}
+
+.news h2, .news h3, .news h4 {
+  color: #000; 
+  background: transparent;
 }
 
 a:link { background-color: transparent; color: #CB2F00; }
@@ -90,8 +157,14 @@ a:hover, a:focus { background-color: #99027A; color: #FFF; text-decoration: none
   padding-top: 4px; padding-bottom: 4px;
 }
 
-a.skiplink, a.langlink, a.skiplink:visited, a.langlink:visited { background-color: transparent; color: #FFF; font-weight: bold; z-index: 1; }
-a.skiplink:hover, a.skiplink:focus, a.langlink:hover, a.langlink:focus { color: #FFF; font-weight: bold; }
+a.skiplink, a.langlink, a.skiplink:visited, a.langlink:visited { 
+  background-color: transparent; color: #FFF; 
+  text-decoration: none;
+}
+a.skiplink:hover, a.skiplink:focus, a.langlink:hover, a.langlink:focus { 
+  color: #FEC341; 
+  border-bottom: 2px solid #FEC341;
+}
 
 a.imgurl:hover, a.imgurl:focus { text-decoration: none; background: transparent; } 
 
@@ -110,7 +183,7 @@ footer > * {
 }
 
 footer > div {
-  padding: 10px;
+  padding: 10px 0;
   background-color: #99027A; color: #FFF;
 }
 
