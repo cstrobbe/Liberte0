@@ -220,6 +220,10 @@ th, td {
   padding: 0.2em;
 }
 
+.surname {
+  text-transform: uppercase;
+}
+
 /* temp colours to test layout */
 /*
 nav {border: 1px dotted red; } 
