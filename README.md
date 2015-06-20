@@ -12,3 +12,5 @@ Temporary repository of static code for the website of [Liberté 0 / Freedom #0]
 
 The English version of the temporary website can be accessed at http://cstrobbe.github.io/Liberte0/en/.
 
+The content of this website is available under the Creative Commons [CC BY-SA 4.0](legal.html).
+
