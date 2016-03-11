@@ -52,14 +52,14 @@ nav li {
   color: #FFF;
 }
 
-nav li:before {
+#nav li:before {
   content: " / ";
   background-color: #99027A; color: #FFF;
   font-size: 1.4em;
   font-weight: normal;
 }
 
-nav li:first-child:before {
+#nav li:first-child:before {
   content: "";
 }
 
