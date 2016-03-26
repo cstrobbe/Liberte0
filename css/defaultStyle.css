@@ -44,6 +44,15 @@ nav ul:after {
   border-left: solid white 20px;
   color: inherit; background-color: #FFF;
 }
+nav ul:hover:after {
+  content: url('../img/Osterei_Verzierung_March_2010_Wikimedia-CC-BY-SA.jpg');
+  float: right;
+  margin-top: -65px;
+  margin-right: -20px;
+  border-right: solid white 20px;
+  border-left: solid white 20px;
+  color: inherit; background-color: #FFF;
+}
 
 nav li {
   display: inline; 
