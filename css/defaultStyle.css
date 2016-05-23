@@ -162,6 +162,15 @@ h2 { margin-top: 32px;
   font-size: 1.6em;
 }
 
+#statuts #nav2 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#statuts #nav2 h2 {
+  color: white;
+  background-color: transparent;
+}
+
 .news h2, .news h3, .news h4 {
   color: #000; 
   background: transparent;
