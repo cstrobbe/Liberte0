@@ -1,5 +1,7 @@
 # Liberté 0 / Freedom #0
 
+**This repo has moved to [GitLab](https://gitlab.com/cstrobbe/Liberte0).**
+
 ## Français
 
 Ceci est le "repo" temporaire du site web statique de l'association Liberté 0 (liberte0.org).
